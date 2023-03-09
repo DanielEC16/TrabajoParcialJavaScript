@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../CSS/Style.css">
+
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <form id="formulario" class="needs-validation" novalidate>
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" class="form-control" id="nombre" name="nombre" required>
+          <div class="invalid-feedback">
+            Ingresa un nombre válido.
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+          <div class="invalid-feedback">
+            Ingresa un email válido.
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" class="form-control" id="telefono" name="telefono" required>
+          <div class="invalid-feedback">
+            Ingresa un número de teléfono válido.
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje:</label>
+          <textarea class="form-control" id="mensaje" name="mensaje" required></textarea>
+          <div class="invalid-feedback">
+            Ingresa un mensaje válido.
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+      
+
+
+      <script src="../../js/bootstrap.js"></script>
+      <script src="../JS/logScript.js"></script>
+      
+</body>
+</html>

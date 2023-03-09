@@ -1,0 +1,16 @@
+.invalid-feedback {
+    display: none;
+    color: red;
+  }
+  
+  .was-validated input:invalid,
+  .was-validated textarea:invalid {
+    border-color: red;
+  }
+  
+  .was-validated input:invalid ~ .invalid-feedback,
+  .was-validated textarea:invalid ~ .invalid-feedback {
+    display: block;
+  }
+  
+  
